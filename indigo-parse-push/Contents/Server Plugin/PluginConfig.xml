@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PluginConfig>
+	<Field type="checkbox" id="enabled" defaultValue="no">
+		<Label>Enable Parse Push Notifications</Label>
+	</Field>
+	<Field id="label0" type="label">
+		<Label>Please enter your keys from your Parse.com application</Label>
+	</Field>
+	<Field id="parseapikey" type="textfield" defaultValue="">
+		<Label>Parse App ID:</Label>
+	</Field>
+	<Field id="restkey" type="textfield" defaultValue="">
+		<Label>REST API Key</Label>
+	</Field>
+</PluginConfig>
